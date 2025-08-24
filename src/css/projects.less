@@ -1,0 +1,63 @@
+@import './variables.less';
+
+.dialog-content {
+
+    // Add custom styles for your projects descriptions here
+
+    .paragraph {
+        margin: 20px 0px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    iframe.youtube {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .phone-screenshot {
+        width: 100%;
+    }
+
+    .pc-screenshot {
+        width: 100%;
+    }
+
+    .notice {
+        border: 1px solid @successColor;
+        background-color: fade(@successColor, 10%);
+        color: @successColor;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    a {
+        color: @accentColor;
+        opacity: 1;
+        text-decoration: underline;
+        transition: opacity 0.2s ease;
+    }
+    
+    a:hover {
+        opacity: 0.8;
+    }
+
+    @media only screen and (min-width: 620px){
+        iframe.youtube {
+            max-width: 728px;
+            height: 409px;
+        }
+
+        .phone-screenshot {
+            margin: 15px;
+            width : 300px;
+        }
+    
+        .pc-screenshot {
+            margin: 15px;
+            width : 400px;
+        }
+    }
+}
