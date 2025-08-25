@@ -43,7 +43,7 @@ export default Vue.extend({
   components: {
     ProjectDetailsOverlay,
   },
-  data: function () {
+  data() {
     return {
       projects: otherProjectsData,
       showPopup: false,
@@ -59,10 +59,10 @@ export default Vue.extend({
     };
   },
   computed: {
-    ransomTypeLogo() {
+    ransomTypeLogo(): string {
       return this.isDarkMode ? 'img/RansomTypeLogoDarkMode.png' : 'img/RansomTypeLogoLightMode.png';
     },
-    beyondWideAngleLogo() {
+    beyondWideAngleLogo(): string {
       return this.isDarkMode ? 'img/BWADarkMode.png' : 'img/BWALightMode.png';
     }
   },

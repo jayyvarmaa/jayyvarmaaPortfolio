@@ -78,7 +78,7 @@
         <div class="skill-set">
           <h3>🎨 Design & Creative Tools</h3>
           <SkillRate name="Adobe Creative Suite" :rate="4" />
-          <SkillRate name="Adobe Photoshop" :rate="4" />
+          <SkillRate name="Adobe Photoshop" :rate="5" />
           <SkillRate name="Adobe Illustrator" :rate="4" />
           <SkillRate name="After Effects" :rate="3" />
           <SkillRate name="Adobe Audition" :rate="3" />

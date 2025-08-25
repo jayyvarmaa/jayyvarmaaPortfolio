@@ -31,7 +31,7 @@ export default Vue.extend({
     };
   },
   computed: {
-    logoSrc() {
+    logoSrc(): string {
       return this.isDarkMode ? 'img/SignatureDarkMode.png' : 'img/SignatureLightMode.png';
     }
   },
